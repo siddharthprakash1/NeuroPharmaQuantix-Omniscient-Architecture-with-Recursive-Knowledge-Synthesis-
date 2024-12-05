@@ -1,0 +1,12 @@
+microlabs_usa/
+datasets/
+datasets.zip/
+chroma_db/
+__pycache__/
+env/
+venv/
+
+
+*.pyc
+*.zip
+.env
