@@ -178,7 +178,46 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Groq team for AI infrastructure
 - LangChain community for framework support
 
----
+📸 Demo Screenshot
+<p align="center">
+  <img src="output.png" alt="NPQ-OARKS Demo Interface" width="800"/>
+</p>
+🔑 Important Notes for Users
+Environment Setup
+Before running the application, make sure to:
+
+Create a .env file in the root directory with your API keys:
+
+bashCopyGROQ_API_KEY=your_groq_api_key_here
+Dataset Options
+Using Medical Dataset (Default)
+
+Download the pharmaceutical dataset:
+
+Create a datasets folder in the root directory
+Inside it, create a microlabs_usa folder
+Run web_scrapper.py to populate the data
+Let the embeddings generate on first run
+
+
+
+Using Custom Dataset
+You can adapt this architecture for any domain! Simply:
+
+Prepare your data in JSON format with a similar structure
+Update the data loading path in try1.py
+Adjust the tool descriptions and prompts for your domain
+Let the system generate new embeddings for your data
+
+The architecture is domain-agnostic and can be used for:
+
+Legal document analysis
+Educational content delivery
+Technical documentation
+Customer support
+And much more!
+
+
 <p align="center">
 Made with 💊 by Siddharth Prakash
 </p>
