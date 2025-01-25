@@ -217,6 +217,11 @@ Technical documentation
 Customer support
 And much more!
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
+© 2025 Siddharth
+
 
 <p align="center">
 Made with 💊 by Siddharth Prakash
